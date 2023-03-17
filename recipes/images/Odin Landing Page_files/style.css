@@ -1,0 +1,159 @@
+body {
+    display:flex;
+    flex-direction: column;
+    font-family: Roboto, Arial, sans-serif;
+    align-items: stretch;
+}
+
+.top{
+    background-color: #1F2937;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1F2937;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 100px;
+    align-self: stretch;
+}
+
+.logo{
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: 900;;
+    display: flex;
+    align-items: center;
+}
+
+.header-links{
+    list-style-type: none;
+    display: flex;
+    gap: 15px;
+}
+
+a{ 
+    font-size: 16px;
+    text-decoration: none; 
+    color:#F9FAF8;
+}
+
+
+.first{
+    background-color: #1F2937;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    align-self: stretch;
+    padding: 120px 100px;
+    gap: 10px;
+}
+
+.left-half{
+    width:500px;
+
+}
+
+.placeholderimg{
+    width:500px;
+    height:250px;
+    background: rgb(120, 119, 124);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-text{
+    font-size: 48px;
+    font-weight:bolder;
+    color: #F9FAF8;
+    padding-right: 50px;
+}
+
+.secondary-text{
+    font-size: 18px;
+    color: #E5E7EB;
+    padding-right: 50px;
+    padding-bottom: 12px;
+}
+button{
+    border-radius: 5px;
+    border: none;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-weight: bolder;
+    padding: 8px 25px;
+}
+
+
+.random {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 80px;
+}
+
+.info-header{
+    font-size: 36px;
+    font-weight:bolder;
+    color: #1F2937;
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 60px;
+}
+
+.item{
+    width: 150px;
+}
+  
+.frame{
+    width: 150px;
+    height: 150px;
+    border-radius: 15px;
+    border: 3px solid #3882F6;
+}
+
+.text{
+    color: #1F2937;
+    font-size: 16px;
+    padding-top: 8px;
+}
+
+.quotes{
+    background-color: #E5E7EB;
+    color: #1F2937;
+    font-size: 34px;
+    font-style: italic;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 80px;
+    display: flex;
+    flex-wrap: wrap;
+}
+p{
+    text-align: left;
+    width: 800px;
+    font-weight: 300;
+    padding:0;
+
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    font-size: 12px;
+    padding: 40px;
+}
